@@ -20,6 +20,4 @@
 @property (nonatomic,strong) NSMutableArray *objectMovieArr;
 
 
-@property (nonatomic,strong) NSArray *recipePhoto;
-
 @end

@@ -15,7 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HfQ-In-07P"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="623"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DC2-uP-yvK">
@@ -31,10 +31,10 @@
                                 <color key="backgroundColor" red="0.11372549831867218" green="0.11372549831867218" blue="0.11372549831867218" alpha="1" colorSpace="deviceRGB"/>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Npv-nQ-Ix4">
-                                <rect key="frame" x="0.0" y="50" width="320" height="578"/>
+                                <rect key="frame" x="0.0" y="50" width="320" height="573"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="lG2-bW-KOV">
-                                    <size key="itemSize" width="152" height="202"/>
+                                    <size key="itemSize" width="152" height="235"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
@@ -44,21 +44,48 @@
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="152" height="202"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="152" height="235"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QGl-4n-x7g" customClass="RemoteImageView">
-                                                    <rect key="frame" x="8" y="8" width="136" height="185"/>
+                                                    <rect key="frame" x="8" y="11" width="136" height="168"/>
                                                 </imageView>
+                                                <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybL-v0-Dj7">
+                                                    <rect key="frame" x="9" y="7" width="136" height="177"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="302" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiK-4t-XMR">
+                                                            <rect key="frame" x="7" y="143" width="120" height="23"/>
+                                                            <color key="backgroundColor" red="0.8941794882015307" green="0.88918407206632666" blue="0.89917490433673475" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" tag="301" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i66-Gg-e6e">
+                                                            <rect key="frame" x="7" y="114" width="120" height="23"/>
+                                                            <color key="backgroundColor" red="0.8941794882015307" green="0.88918407206632666" blue="0.89917490433673475" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.56862747670000002" green="0.56862747670000002" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RPX-QH-UmH">
+                                                    <rect key="frame" x="9" y="192" width="135" height="34"/>
+                                                    <color key="backgroundColor" red="0.89417948820000004" green="0.88918407209999994" blue="0.89917490430000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" red="0.36078432199999999" green="0.67450982329999998" blue="0.2823529541" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="backgroundColor" red="0.11764706671237946" green="0.11764706671237946" blue="0.11764706671237946" alpha="1" colorSpace="deviceRGB"/>
                                         <constraints>
                                             <constraint firstItem="QGl-4n-x7g" firstAttribute="leading" secondItem="7ur-6a-1YD" secondAttribute="leadingMargin" id="Irs-O8-c9H"/>
                                             <constraint firstItem="QGl-4n-x7g" firstAttribute="trailing" secondItem="7ur-6a-1YD" secondAttribute="trailingMargin" id="exI-J9-O55"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="QGl-4n-x7g" secondAttribute="bottom" constant="1" id="pSY-Aw-BRG"/>
-                                            <constraint firstItem="QGl-4n-x7g" firstAttribute="top" secondItem="7ur-6a-1YD" secondAttribute="topMargin" id="wdH-b5-c35"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="QGl-4n-x7g" secondAttribute="bottom" constant="48" id="pSY-Aw-BRG"/>
+                                            <constraint firstItem="QGl-4n-x7g" firstAttribute="top" secondItem="7ur-6a-1YD" secondAttribute="topMargin" constant="3" id="wdH-b5-c35"/>
                                         </constraints>
                                     </collectionViewCell>
                                 </cells>
@@ -73,18 +100,19 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Npv-nQ-Ix4" secondAttribute="trailing" constant="-16" id="JjE-Td-kLQ"/>
                             <constraint firstItem="Npv-nQ-Ix4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="ePm-hg-h09"/>
                             <constraint firstItem="Npv-nQ-Ix4" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="50" id="igx-w4-Iip"/>
-                            <constraint firstItem="HfQ-In-07P" firstAttribute="top" secondItem="Npv-nQ-Ix4" secondAttribute="bottom" constant="-60" id="sFs-Qy-XiA"/>
+                            <constraint firstItem="HfQ-In-07P" firstAttribute="top" secondItem="Npv-nQ-Ix4" secondAttribute="bottom" id="sFs-Qy-XiA"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="623"/>
                     <connections>
                         <outlet property="collectionView" destination="Npv-nQ-Ix4" id="4P5-kc-zhq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-230" y="-327"/>
+            <point key="canvasLocation" x="-230" y="-327.5"/>
         </scene>
     </scenes>
     <resources>

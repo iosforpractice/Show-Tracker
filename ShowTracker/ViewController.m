@@ -35,8 +35,7 @@
     
     
     
-             self.recipePhoto = [NSArray arrayWithObjects:@"angry_birds_cake.jpg", @"creme_brelee.jpg", @"egg_benedict.jpg", @"full_breakfast.jpg", @"green_tea.jpg", @"ham_and_cheese_panini.jpg", @"ham_and_egg_sandwich.jpg", @"hamburger.jpg", @"instant_noodle_with_egg.jpg", @"japanese_noodle_with_pork.jpg", @"mushroom_risotto.jpg", @"noodle_with_bbq_pork.jpg", @"starbucks_coffee.jpg", @"thai_shrimp_cake.jpg", @"vegetable_curry.jpg", @"white_chocolate_donut.jpg", nil];
-    
+
     [super viewDidLoad];
 }
 
@@ -113,17 +112,39 @@
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-      NSLog(@"%ld",self.objectMovieArr.count);
+      NSLog(@"%ld",(unsigned long)self.objectMovieArr.count);
     return self.objectMovieArr.count;
 }
+
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *identifier = @"cell";
+    
     UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
-    NSLog(@"%@",cell.contentView.subviews);
+    
     RemoteImageView *recipeImageView = (RemoteImageView *)[cell viewWithTag:100];
     MovieDetails *showDetails=[self.objectMovieArr objectAtIndex:indexPath.row];
     recipeImageView.imageURL=[NSURL URLWithString:showDetails.str_image];
+    
+    UILabel *labelMovie=(UILabel*)[cell viewWithTag:200];
+    labelMovie.text=showDetails.str_title;
+    
+      NSLog(@"%@",showDetails.arr_genre);
+    
+    UILabel *genereLabel1=(UILabel *)[cell viewWithTag:301];
+    genereLabel1.text=[showDetails.arr_genre objectAtIndex:0];
+    
+
+    
+    if ([showDetails.arr_genre count]>1)
+    {
+        UILabel *genereLabel2=(UILabel *)[cell viewWithTag:302];
+        genereLabel2.text=[showDetails.arr_genre objectAtIndex:1];
+    }
+
+    
+    
     NSLog(@"%@",recipeImageView);
     return cell;
 }
