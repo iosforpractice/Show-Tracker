@@ -16,6 +16,7 @@
 		445F0D0718C310CD0074F4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445F0D0518C310CD0074F4BE /* Main.storyboard */; };
 		445F0D0A18C310CD0074F4BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445F0D0918C310CD0074F4BE /* ViewController.m */; };
 		445F0D2918C310E70074F4BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445F0D2818C310E70074F4BE /* Images.xcassets */; };
+		975A7C681ABFF6930033321F /* MovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 975A7C671ABFF6930033321F /* MovieDetails.m */; };
 		97F653681ABD906D00C82B5C /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653671ABD906D00C82B5C /* API.m */; };
 		97F653C61ABD9E9D00C82B5C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653A21ABD9E9D00C82B5C /* AFHTTPRequestOperation.m */; };
 		97F653C71ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653A41ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.m */; };
@@ -52,6 +53,8 @@
 		445F0D0918C310CD0074F4BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		445F0D1218C310CD0074F4BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		445F0D2818C310E70074F4BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		975A7C661ABFF6930033321F /* MovieDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetails.h; sourceTree = "<group>"; };
+		975A7C671ABFF6930033321F /* MovieDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetails.m; sourceTree = "<group>"; };
 		97F653661ABD906D00C82B5C /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		97F653671ABD906D00C82B5C /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
 		97F653A11ABD9E9D00C82B5C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 		445F0CE718C310CD0074F4BE = {
 			isa = PBXGroup;
 			children = (
+				975A7C661ABFF6930033321F /* MovieDetails.h */,
+				975A7C671ABFF6930033321F /* MovieDetails.m */,
 				97F653A01ABD9E9D00C82B5C /* AFNetworking */,
 				97F653B41ABD9E9D00C82B5C /* UIKit+AFNetworking */,
 				445F0CF918C310CD0074F4BE /* ShowTracker */,
@@ -284,6 +289,7 @@
 				97F653D51ABD9E9D00C82B5C /* UIRefreshControl+AFNetworking.m in Sources */,
 				97F653D11ABD9E9D00C82B5C /* UIAlertView+AFNetworking.m in Sources */,
 				445F0D0018C310CD0074F4BE /* main.m in Sources */,
+				975A7C681ABFF6930033321F /* MovieDetails.m in Sources */,
 				97F653CA1ABD9E9D00C82B5C /* AFSecurityPolicy.m in Sources */,
 				445F0D0A18C310CD0074F4BE /* ViewController.m in Sources */,
 				97F653C71ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.m in Sources */,

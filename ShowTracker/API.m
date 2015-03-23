@@ -23,10 +23,13 @@
     
     [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject)
      {
+         
          NSDictionary * dict=responseObject;
          [self.degate passDataWithDictionary:dict];
          //[self sucsess:responseObject];
-        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        }
+                                     failure:^(AFHTTPRequestOperation *operation, NSError *error)
+    {
             [self.degate didFailPassingDta:error];
         }];
     
@@ -34,7 +37,24 @@
     return nil;
 }
 
+-(NSDictionary*)getDataFromURL:(NSString*)strUrl withaParameters:(NSDictionary*)dict
+{
+    AFHTTPRequestOperationManager *manager=[AFHTTPRequestOperationManager manager];
+ 
+   // NSURL *filePath=[NSURL fileURLWithPath:strUrl];
+    
+    [manager POST:strUrl parameters:dict success:^(AFHTTPRequestOperation *operation, id responseObject)
+    {
+        NSDictionary * dict=responseObject;
+        [self.degate passDataWithDictionary:dict];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error)
+     {
+        [self.degate didFailPassingDta:error];
 
+    }];
+    
+    return nil;
+}
 
 
 
