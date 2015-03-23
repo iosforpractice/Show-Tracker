@@ -12,7 +12,7 @@
 @protocol passDataWithDelegate <NSObject>
 
 -(void )passDataWithDictionary:(NSDictionary*)dict;
--(BOOL)passData;
+//-(BOOL)passData;
 -(void)didFailPassingDta:(NSError *)error;
 
 @end

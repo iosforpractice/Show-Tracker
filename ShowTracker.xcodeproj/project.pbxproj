@@ -17,6 +17,12 @@
 		445F0D0A18C310CD0074F4BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445F0D0918C310CD0074F4BE /* ViewController.m */; };
 		445F0D2918C310E70074F4BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445F0D2818C310E70074F4BE /* Images.xcassets */; };
 		975A7C681ABFF6930033321F /* MovieDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 975A7C671ABFF6930033321F /* MovieDetails.m */; };
+		975A7C6F1AC01EA50033321F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 975A7C6E1AC01EA50033321F /* background.jpg */; };
+		975A7C731AC01EDF0033321F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975A7C701AC01EDF0033321F /* Default-568h@2x.png */; };
+		975A7C741AC01EDF0033321F /* Default-568h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975A7C711AC01EDF0033321F /* Default-568h@3x.png */; };
+		975A7C751AC01EDF0033321F /* Default-568h@4x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975A7C721AC01EDF0033321F /* Default-568h@4x.png */; };
+		975A7C791AC0224F0033321F /* logo-YTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 975A7C781AC0224F0033321F /* logo-YTS.png */; };
+		975A7C7F1AC02FC30033321F /* RemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 975A7C7E1AC02FC30033321F /* RemoteImageView.m */; };
 		97F653681ABD906D00C82B5C /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653671ABD906D00C82B5C /* API.m */; };
 		97F653C61ABD9E9D00C82B5C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653A21ABD9E9D00C82B5C /* AFHTTPRequestOperation.m */; };
 		97F653C71ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653A41ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.m */; };
@@ -55,6 +61,13 @@
 		445F0D2818C310E70074F4BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		975A7C661ABFF6930033321F /* MovieDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetails.h; sourceTree = "<group>"; };
 		975A7C671ABFF6930033321F /* MovieDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetails.m; sourceTree = "<group>"; };
+		975A7C6E1AC01EA50033321F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		975A7C701AC01EDF0033321F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		975A7C711AC01EDF0033321F /* Default-568h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@3x.png"; sourceTree = "<group>"; };
+		975A7C721AC01EDF0033321F /* Default-568h@4x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@4x.png"; sourceTree = "<group>"; };
+		975A7C781AC0224F0033321F /* logo-YTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-YTS.png"; sourceTree = "<group>"; };
+		975A7C7D1AC02FC30033321F /* RemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageView.h; sourceTree = "<group>"; };
+		975A7C7E1AC02FC30033321F /* RemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageView.m; sourceTree = "<group>"; };
 		97F653661ABD906D00C82B5C /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
 		97F653671ABD906D00C82B5C /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
 		97F653A11ABD9E9D00C82B5C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -112,8 +125,7 @@
 		445F0CE718C310CD0074F4BE = {
 			isa = PBXGroup;
 			children = (
-				975A7C661ABFF6930033321F /* MovieDetails.h */,
-				975A7C671ABFF6930033321F /* MovieDetails.m */,
+				975A7C6D1ABFF9380033321F /* Movie All Details */,
 				97F653A01ABD9E9D00C82B5C /* AFNetworking */,
 				97F653B41ABD9E9D00C82B5C /* UIKit+AFNetworking */,
 				445F0CF918C310CD0074F4BE /* ShowTracker */,
@@ -160,12 +172,28 @@
 		445F0CFA18C310CD0074F4BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				975A7C781AC0224F0033321F /* logo-YTS.png */,
+				975A7C6E1AC01EA50033321F /* background.jpg */,
+				975A7C701AC01EDF0033321F /* Default-568h@2x.png */,
+				975A7C711AC01EDF0033321F /* Default-568h@3x.png */,
+				975A7C721AC01EDF0033321F /* Default-568h@4x.png */,
 				445F0CFB18C310CD0074F4BE /* ShowTracker-Info.plist */,
 				445F0CFC18C310CD0074F4BE /* InfoPlist.strings */,
 				445F0CFF18C310CD0074F4BE /* main.m */,
 				445F0D0118C310CD0074F4BE /* ShowTracker-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		975A7C6D1ABFF9380033321F /* Movie All Details */ = {
+			isa = PBXGroup;
+			children = (
+				975A7C7D1AC02FC30033321F /* RemoteImageView.h */,
+				975A7C7E1AC02FC30033321F /* RemoteImageView.m */,
+				975A7C661ABFF6930033321F /* MovieDetails.h */,
+				975A7C671ABFF6930033321F /* MovieDetails.m */,
+			);
+			name = "Movie All Details";
 			sourceTree = "<group>";
 		};
 		97F653A01ABD9E9D00C82B5C /* AFNetworking */ = {
@@ -272,7 +300,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				445F0D2918C310E70074F4BE /* Images.xcassets in Resources */,
+				975A7C6F1AC01EA50033321F /* background.jpg in Resources */,
+				975A7C751AC01EDF0033321F /* Default-568h@4x.png in Resources */,
+				975A7C741AC01EDF0033321F /* Default-568h@3x.png in Resources */,
 				445F0CFE18C310CD0074F4BE /* InfoPlist.strings in Resources */,
+				975A7C791AC0224F0033321F /* logo-YTS.png in Resources */,
+				975A7C731AC01EDF0033321F /* Default-568h@2x.png in Resources */,
 				445F0D0718C310CD0074F4BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +319,7 @@
 			files = (
 				97F653D41ABD9E9D00C82B5C /* UIProgressView+AFNetworking.m in Sources */,
 				97F653D21ABD9E9D00C82B5C /* UIButton+AFNetworking.m in Sources */,
+				975A7C7F1AC02FC30033321F /* RemoteImageView.m in Sources */,
 				97F653D51ABD9E9D00C82B5C /* UIRefreshControl+AFNetworking.m in Sources */,
 				97F653D11ABD9E9D00C82B5C /* UIAlertView+AFNetworking.m in Sources */,
 				445F0D0018C310CD0074F4BE /* main.m in Sources */,

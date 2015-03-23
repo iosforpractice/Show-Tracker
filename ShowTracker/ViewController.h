@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "API.h"
+#import "MovieDetails.h"
 
-@interface ViewController : UIViewController <UIScrollViewDelegate,passDataWithDelegate>
-@property (nonatomic, weak) IBOutlet UIScrollView *showsScrollView;
-@property (nonatomic, weak) IBOutlet UIPageControl *showsPageControl;
+
+@interface ViewController : UIViewController <UIScrollViewDelegate,passDataWithDelegate,UICollectionViewDelegate,UICollectionViewDataSource>
+{
+    IBOutlet UICollectionView *collectionView;
+    
+}
+@property (nonatomic,strong) MovieDetails *allMovieDeatails;
+@property (nonatomic,strong) NSMutableArray *objectMovieArr;
+
+
+@property (nonatomic,strong) NSArray *recipePhoto;
+
 @end
