@@ -1,92 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="oiT-N4-J0H">
     <dependencies>
         <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
+        <!--Show Movie List-->
+        <scene sceneID="Uja-qg-CJc">
+            <objects>
+                <viewController storyboardIdentifier="ShowMovie" id="BQX-3Q-lh9" customClass="ShowMovieList" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lnm-9H-0IL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ANs-wg-0nD"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BSl-vq-vmS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2531" y="-829"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="FOx-mw-ffb"/>
-                        <viewControllerLayoutGuide type="bottom" id="HfQ-In-07P"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="623"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DC2-uP-yvK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="DC2-uP-yvK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.090196080509999998" green="0.090196080509999998" blue="0.090196080509999998" alpha="1" colorSpace="deviceRGB"/>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pwy-tq-VgX">
+                            <view contentMode="scaleToFill" id="Pwy-tq-VgX">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo-YTS.png" translatesAutoresizingMaskIntoConstraints="NO" id="jyi-hz-x4f">
-                                        <rect key="frame" x="8" y="10" width="80" height="30"/>
-                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECT THE GENRE YOU LIKE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6h8-Uh-DcS">
+                                        <rect key="frame" x="8" y="8" width="304" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="19"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <color key="highlightedColor" red="0.99444444440000002" green="0.98888888890000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="shadowColor" red="0.56862747670000002" green="0.56862747670000002" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
+                                        <size key="shadowOffset" width="1" height="1"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.11372549831867218" green="0.11372549831867218" blue="0.11372549831867218" alpha="1" colorSpace="deviceRGB"/>
                             </view>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Npv-nQ-Ix4">
-                                <rect key="frame" x="0.0" y="50" width="320" height="573"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Npv-nQ-Ix4">
+                                <rect key="frame" x="0.0" y="50" width="320" height="518"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="lG2-bW-KOV">
-                                    <size key="itemSize" width="152" height="235"/>
+                                <inset key="scrollIndicatorInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="15" minimumInteritemSpacing="15" id="lG2-bW-KOV">
+                                    <size key="itemSize" width="137" height="228"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
+                                    <inset key="sectionInset" minX="15" minY="5" maxX="15" maxY="5"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="7ur-6a-1YD">
                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="152" height="235"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="137" height="228"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QGl-4n-x7g" customClass="RemoteImageView">
-                                                    <rect key="frame" x="8" y="11" width="136" height="168"/>
-                                                </imageView>
-                                                <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ybL-v0-Dj7">
-                                                    <rect key="frame" x="9" y="7" width="136" height="177"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" tag="302" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MiK-4t-XMR">
-                                                            <rect key="frame" x="7" y="143" width="120" height="23"/>
-                                                            <color key="backgroundColor" red="0.8941794882015307" green="0.88918407206632666" blue="0.89917490433673475" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" tag="301" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i66-Gg-e6e">
-                                                            <rect key="frame" x="7" y="114" width="120" height="23"/>
-                                                            <color key="backgroundColor" red="0.8941794882015307" green="0.88918407206632666" blue="0.89917490433673475" alpha="1" colorSpace="calibratedRGB"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                    <color key="backgroundColor" red="0.56862747670000002" green="0.56862747670000002" blue="0.56862747670000002" alpha="1" colorSpace="deviceRGB"/>
-                                                </view>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RPX-QH-UmH">
-                                                    <rect key="frame" x="9" y="192" width="135" height="34"/>
-                                                    <color key="backgroundColor" red="0.89417948820000004" green="0.88918407209999994" blue="0.89917490430000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsLetterSpacingToFitWidth="YES" id="RPX-QH-UmH">
+                                                    <rect key="frame" x="8" y="194" width="129" height="34"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="QGl-4n-x7g" customClass="RemoteImageView">
+                                                    <rect key="frame" x="0.0" y="0.0" width="137" height="186"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
-                                        <color key="backgroundColor" red="0.11764706671237946" green="0.11764706671237946" blue="0.11764706671237946" alpha="1" colorSpace="deviceRGB"/>
-                                        <constraints>
-                                            <constraint firstItem="QGl-4n-x7g" firstAttribute="leading" secondItem="7ur-6a-1YD" secondAttribute="leadingMargin" id="Irs-O8-c9H"/>
-                                            <constraint firstItem="QGl-4n-x7g" firstAttribute="trailing" secondItem="7ur-6a-1YD" secondAttribute="trailingMargin" id="exI-J9-O55"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="QGl-4n-x7g" secondAttribute="bottom" constant="48" id="pSY-Aw-BRG"/>
-                                            <constraint firstItem="QGl-4n-x7g" firstAttribute="top" secondItem="7ur-6a-1YD" secondAttribute="topMargin" constant="3" id="wdH-b5-c35"/>
-                                        </constraints>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -96,29 +94,52 @@
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Npv-nQ-Ix4" secondAttribute="trailing" constant="-16" id="JjE-Td-kLQ"/>
-                            <constraint firstItem="Npv-nQ-Ix4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="ePm-hg-h09"/>
-                            <constraint firstItem="Npv-nQ-Ix4" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" constant="50" id="igx-w4-Iip"/>
-                            <constraint firstItem="HfQ-In-07P" firstAttribute="top" secondItem="Npv-nQ-Ix4" secondAttribute="bottom" id="sFs-Qy-XiA"/>
-                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="POk-Bq-3wI"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="623"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="collectionView" destination="Npv-nQ-Ix4" id="4P5-kc-zhq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-230" y="-327.5"/>
+            <point key="canvasLocation" x="2151" y="-829"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Moj-2e-RHN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="opD-zx-iOr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6vq-a2-hXs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hs-US-bha" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8" y="-730"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lXD-1p-LJz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="oiT-N4-J0H" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="gAd-Ia-BAl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="bLe-go-4OQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F4x-eL-1Q8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622" y="-822"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="background.jpg" width="1280" height="720"/>
-        <image name="logo-YTS.png" width="600" height="250"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

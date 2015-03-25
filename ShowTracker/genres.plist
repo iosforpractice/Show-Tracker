@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Genres</key>
+	<array>
+		<string>Action</string>
+		<string>Adventure</string>
+		<string>Animation</string>
+		<string>Biography</string>
+		<string>Comedy</string>
+		<string>Crime</string>
+		<string>Documentary</string>
+		<string>Drama</string>
+		<string>Family</string>
+		<string>Fantasy</string>
+		<string>Film-Noir</string>
+		<string>Game-Show</string>
+		<string>History</string>
+		<string>Horror</string>
+		<string>Music</string>
+		<string>Musical</string>
+		<string>Mystery</string>
+		<string>News</string>
+		<string>Reality-TV</string>
+		<string>Romance</string>
+		<string>Sci-Fi</string>
+		<string>Sports</string>
+		<string>Talk-Show</string>
+		<string>Thriller</string>
+		<string>War</string>
+		<string>Western</string>
+	</array>
+	<key>Thumbnails</key>
+	<array>
+		<string>Action.jpg</string>
+		<string>Adventure.jpg</string>
+		<string>Animation.jpg</string>
+		<string>Biography.jpg</string>
+		<string>Comedy.jpg</string>
+		<string>Crime.jpg</string>
+		<string>Documentary.jpg</string>
+		<string>Drama.jpg</string>
+		<string>Family.jpg</string>
+		<string>Fantasy.jpg</string>
+		<string>Film-Noir.jpg</string>
+		<string>Game-Show.jpg</string>
+		<string>History.jpg</string>
+		<string>Horror.jpg</string>
+		<string>Music.jpg</string>
+		<string>Musical.jpg</string>
+		<string>Mystery.jpg</string>
+		<string>News.jpg</string>
+		<string>Reality-TV.jpg</string>
+		<string>Romance.jpg</string>
+		<string>Sci-Fi.jpg</string>
+		<string>Sports.jpg</string>
+		<string>Talk-Show.jpg</string>
+		<string>Thriller.jpg</string>
+		<string>War.jpg</string>
+		<string>Western.jpg</string>
+	</array>
+</dict>
+</plist>

@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "API.h"
+#import <QuartzCore/QuartzCore.h>
 #import "MovieDetails.h"
+#import "ShowMovieList.h"
 
 
 @interface ViewController : UIViewController <UIScrollViewDelegate,passDataWithDelegate,UICollectionViewDelegate,UICollectionViewDataSource>
@@ -16,8 +18,9 @@
     IBOutlet UICollectionView *collectionView;
     
 }
-@property (nonatomic,strong) MovieDetails *allMovieDeatails;
-@property (nonatomic,strong) NSMutableArray *objectMovieArr;
+extern NSString *const bsaeMovieAPI;
+
+@property (strong, nonatomic) IBOutlet UIImageView *upperImageView;
 
 
 @end

@@ -23,6 +23,34 @@
 		975A7C751AC01EDF0033321F /* Default-568h@4x.png in Resources */ = {isa = PBXBuildFile; fileRef = 975A7C721AC01EDF0033321F /* Default-568h@4x.png */; };
 		975A7C791AC0224F0033321F /* logo-YTS.png in Resources */ = {isa = PBXBuildFile; fileRef = 975A7C781AC0224F0033321F /* logo-YTS.png */; };
 		975A7C7F1AC02FC30033321F /* RemoteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 975A7C7E1AC02FC30033321F /* RemoteImageView.m */; };
+		979EF5681AC2B37900D51477 /* genres.plist in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5671AC2B37900D51477 /* genres.plist */; };
+		979EF57D1AC2BC0D00D51477 /* Family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF56C1AC2BC0D00D51477 /* Family.jpg */; };
+		979EF57E1AC2BC0D00D51477 /* History.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF56D1AC2BC0D00D51477 /* History.jpg */; };
+		979EF57F1AC2BC0D00D51477 /* Sci-Fi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF56E1AC2BC0D00D51477 /* Sci-Fi.jpg */; };
+		979EF5801AC2BC0D00D51477 /* Game-Show.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF56F1AC2BC0D00D51477 /* Game-Show.jpg */; };
+		979EF5811AC2BC0D00D51477 /* Romance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5701AC2BC0D00D51477 /* Romance.jpg */; };
+		979EF5821AC2BC0D00D51477 /* Reality-TV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5711AC2BC0D00D51477 /* Reality-TV.jpg */; };
+		979EF5831AC2BC0D00D51477 /* News.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5721AC2BC0D00D51477 /* News.jpg */; };
+		979EF5841AC2BC0D00D51477 /* Western.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5731AC2BC0D00D51477 /* Western.jpg */; };
+		979EF5851AC2BC0D00D51477 /* War.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5741AC2BC0D00D51477 /* War.jpg */; };
+		979EF5861AC2BC0D00D51477 /* Mystery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5751AC2BC0D00D51477 /* Mystery.jpg */; };
+		979EF5871AC2BC0D00D51477 /* Musical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5761AC2BC0D00D51477 /* Musical.jpg */; };
+		979EF5881AC2BC0D00D51477 /* Fantasy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5771AC2BC0D00D51477 /* Fantasy.jpg */; };
+		979EF5891AC2BC0D00D51477 /* Music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5781AC2BC0D00D51477 /* Music.jpg */; };
+		979EF58A1AC2BC0D00D51477 /* Talk-Show.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5791AC2BC0D00D51477 /* Talk-Show.jpg */; };
+		979EF58B1AC2BC0D00D51477 /* Thriller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF57A1AC2BC0D00D51477 /* Thriller.jpg */; };
+		979EF58C1AC2BC0D00D51477 /* Sports.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF57B1AC2BC0D00D51477 /* Sports.jpg */; };
+		979EF58D1AC2BC0D00D51477 /* Horror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF57C1AC2BC0D00D51477 /* Horror.jpg */; };
+		979EF5971AC2BC4200D51477 /* Film-Noir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF58E1AC2BC4200D51477 /* Film-Noir.jpg */; };
+		979EF5981AC2BC4200D51477 /* Drama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF58F1AC2BC4200D51477 /* Drama.jpg */; };
+		979EF5991AC2BC4200D51477 /* Documentary.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5901AC2BC4200D51477 /* Documentary.jpg */; };
+		979EF59A1AC2BC4200D51477 /* Animation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5911AC2BC4200D51477 /* Animation.jpg */; };
+		979EF59B1AC2BC4200D51477 /* Adventure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5921AC2BC4200D51477 /* Adventure.jpg */; };
+		979EF59C1AC2BC4200D51477 /* Action.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5931AC2BC4200D51477 /* Action.jpg */; };
+		979EF59D1AC2BC4200D51477 /* Crime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5941AC2BC4200D51477 /* Crime.jpg */; };
+		979EF59E1AC2BC4200D51477 /* Comedy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5951AC2BC4200D51477 /* Comedy.jpg */; };
+		979EF59F1AC2BC4200D51477 /* Biography.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 979EF5961AC2BC4200D51477 /* Biography.jpg */; };
+		979EF5A21AC2C8E100D51477 /* ShowMovieList.m in Sources */ = {isa = PBXBuildFile; fileRef = 979EF5A11AC2C8E100D51477 /* ShowMovieList.m */; };
 		97F653681ABD906D00C82B5C /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653671ABD906D00C82B5C /* API.m */; };
 		97F653C61ABD9E9D00C82B5C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653A21ABD9E9D00C82B5C /* AFHTTPRequestOperation.m */; };
 		97F653C71ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F653A41ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.m */; };
@@ -59,6 +87,8 @@
 		445F0D0918C310CD0074F4BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		445F0D1218C310CD0074F4BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		445F0D2818C310E70074F4BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		973F7F281AC138980088BFA0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		973F7F2D1AC14FCD0088BFA0 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		975A7C661ABFF6930033321F /* MovieDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetails.h; sourceTree = "<group>"; };
 		975A7C671ABFF6930033321F /* MovieDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetails.m; sourceTree = "<group>"; };
 		975A7C6E1AC01EA50033321F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
@@ -68,8 +98,37 @@
 		975A7C781AC0224F0033321F /* logo-YTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-YTS.png"; sourceTree = "<group>"; };
 		975A7C7D1AC02FC30033321F /* RemoteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteImageView.h; sourceTree = "<group>"; };
 		975A7C7E1AC02FC30033321F /* RemoteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteImageView.m; sourceTree = "<group>"; };
-		97F653661ABD906D00C82B5C /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
-		97F653671ABD906D00C82B5C /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		979EF5671AC2B37900D51477 /* genres.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = genres.plist; sourceTree = "<group>"; };
+		979EF56C1AC2BC0D00D51477 /* Family.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Family.jpg; sourceTree = "<group>"; };
+		979EF56D1AC2BC0D00D51477 /* History.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = History.jpg; sourceTree = "<group>"; };
+		979EF56E1AC2BC0D00D51477 /* Sci-Fi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Sci-Fi.jpg"; sourceTree = "<group>"; };
+		979EF56F1AC2BC0D00D51477 /* Game-Show.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Game-Show.jpg"; sourceTree = "<group>"; };
+		979EF5701AC2BC0D00D51477 /* Romance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Romance.jpg; sourceTree = "<group>"; };
+		979EF5711AC2BC0D00D51477 /* Reality-TV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Reality-TV.jpg"; sourceTree = "<group>"; };
+		979EF5721AC2BC0D00D51477 /* News.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = News.jpg; sourceTree = "<group>"; };
+		979EF5731AC2BC0D00D51477 /* Western.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Western.jpg; sourceTree = "<group>"; };
+		979EF5741AC2BC0D00D51477 /* War.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = War.jpg; sourceTree = "<group>"; };
+		979EF5751AC2BC0D00D51477 /* Mystery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mystery.jpg; sourceTree = "<group>"; };
+		979EF5761AC2BC0D00D51477 /* Musical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Musical.jpg; sourceTree = "<group>"; };
+		979EF5771AC2BC0D00D51477 /* Fantasy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Fantasy.jpg; sourceTree = "<group>"; };
+		979EF5781AC2BC0D00D51477 /* Music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Music.jpg; sourceTree = "<group>"; };
+		979EF5791AC2BC0D00D51477 /* Talk-Show.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Talk-Show.jpg"; sourceTree = "<group>"; };
+		979EF57A1AC2BC0D00D51477 /* Thriller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thriller.jpg; sourceTree = "<group>"; };
+		979EF57B1AC2BC0D00D51477 /* Sports.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sports.jpg; sourceTree = "<group>"; };
+		979EF57C1AC2BC0D00D51477 /* Horror.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Horror.jpg; sourceTree = "<group>"; };
+		979EF58E1AC2BC4200D51477 /* Film-Noir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Film-Noir.jpg"; sourceTree = "<group>"; };
+		979EF58F1AC2BC4200D51477 /* Drama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Drama.jpg; sourceTree = "<group>"; };
+		979EF5901AC2BC4200D51477 /* Documentary.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Documentary.jpg; sourceTree = "<group>"; };
+		979EF5911AC2BC4200D51477 /* Animation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animation.jpg; sourceTree = "<group>"; };
+		979EF5921AC2BC4200D51477 /* Adventure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Adventure.jpg; sourceTree = "<group>"; };
+		979EF5931AC2BC4200D51477 /* Action.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Action.jpg; sourceTree = "<group>"; };
+		979EF5941AC2BC4200D51477 /* Crime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Crime.jpg; sourceTree = "<group>"; };
+		979EF5951AC2BC4200D51477 /* Comedy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Comedy.jpg; sourceTree = "<group>"; };
+		979EF5961AC2BC4200D51477 /* Biography.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Biography.jpg; sourceTree = "<group>"; };
+		979EF5A01AC2C8E100D51477 /* ShowMovieList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowMovieList.h; path = ../ShowMovieList.h; sourceTree = "<group>"; };
+		979EF5A11AC2C8E100D51477 /* ShowMovieList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowMovieList.m; path = ../ShowMovieList.m; sourceTree = "<group>"; };
+		97F653661ABD906D00C82B5C /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = API.h; path = ShowTracker/API.h; sourceTree = "<group>"; };
+		97F653671ABD906D00C82B5C /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = API.m; path = ShowTracker/API.m; sourceTree = "<group>"; };
 		97F653A11ABD9E9D00C82B5C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		97F653A21ABD9E9D00C82B5C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		97F653A31ABD9E9D00C82B5C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -145,6 +204,8 @@
 		445F0CF218C310CD0074F4BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				973F7F2D1AC14FCD0088BFA0 /* FacebookSDK.framework */,
+				973F7F281AC138980088BFA0 /* FacebookSDK.framework */,
 				445F0CF318C310CD0074F4BE /* Foundation.framework */,
 				445F0CF518C310CD0074F4BE /* CoreGraphics.framework */,
 				445F0CF718C310CD0074F4BE /* UIKit.framework */,
@@ -161,8 +222,8 @@
 				445F0D0518C310CD0074F4BE /* Main.storyboard */,
 				445F0D0818C310CD0074F4BE /* ViewController.h */,
 				445F0D0918C310CD0074F4BE /* ViewController.m */,
-				97F653661ABD906D00C82B5C /* API.h */,
-				97F653671ABD906D00C82B5C /* API.m */,
+				979EF5A01AC2C8E100D51477 /* ShowMovieList.h */,
+				979EF5A11AC2C8E100D51477 /* ShowMovieList.m */,
 				445F0D2818C310E70074F4BE /* Images.xcassets */,
 				445F0CFA18C310CD0074F4BE /* Supporting Files */,
 			);
@@ -172,6 +233,8 @@
 		445F0CFA18C310CD0074F4BE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				979EF56B1AC2BC0100D51477 /* Movie Images */,
+				979EF5671AC2B37900D51477 /* genres.plist */,
 				975A7C781AC0224F0033321F /* logo-YTS.png */,
 				975A7C6E1AC01EA50033321F /* background.jpg */,
 				975A7C701AC01EDF0033321F /* Default-568h@2x.png */,
@@ -192,8 +255,43 @@
 				975A7C7E1AC02FC30033321F /* RemoteImageView.m */,
 				975A7C661ABFF6930033321F /* MovieDetails.h */,
 				975A7C671ABFF6930033321F /* MovieDetails.m */,
+				97F653661ABD906D00C82B5C /* API.h */,
+				97F653671ABD906D00C82B5C /* API.m */,
 			);
 			name = "Movie All Details";
+			sourceTree = "<group>";
+		};
+		979EF56B1AC2BC0100D51477 /* Movie Images */ = {
+			isa = PBXGroup;
+			children = (
+				979EF5931AC2BC4200D51477 /* Action.jpg */,
+				979EF5921AC2BC4200D51477 /* Adventure.jpg */,
+				979EF5911AC2BC4200D51477 /* Animation.jpg */,
+				979EF5961AC2BC4200D51477 /* Biography.jpg */,
+				979EF5951AC2BC4200D51477 /* Comedy.jpg */,
+				979EF5941AC2BC4200D51477 /* Crime.jpg */,
+				979EF5901AC2BC4200D51477 /* Documentary.jpg */,
+				979EF58F1AC2BC4200D51477 /* Drama.jpg */,
+				979EF56C1AC2BC0D00D51477 /* Family.jpg */,
+				979EF5771AC2BC0D00D51477 /* Fantasy.jpg */,
+				979EF58E1AC2BC4200D51477 /* Film-Noir.jpg */,
+				979EF56F1AC2BC0D00D51477 /* Game-Show.jpg */,
+				979EF56D1AC2BC0D00D51477 /* History.jpg */,
+				979EF57C1AC2BC0D00D51477 /* Horror.jpg */,
+				979EF5781AC2BC0D00D51477 /* Music.jpg */,
+				979EF5761AC2BC0D00D51477 /* Musical.jpg */,
+				979EF5751AC2BC0D00D51477 /* Mystery.jpg */,
+				979EF5721AC2BC0D00D51477 /* News.jpg */,
+				979EF5711AC2BC0D00D51477 /* Reality-TV.jpg */,
+				979EF5701AC2BC0D00D51477 /* Romance.jpg */,
+				979EF56E1AC2BC0D00D51477 /* Sci-Fi.jpg */,
+				979EF57B1AC2BC0D00D51477 /* Sports.jpg */,
+				979EF5791AC2BC0D00D51477 /* Talk-Show.jpg */,
+				979EF57A1AC2BC0D00D51477 /* Thriller.jpg */,
+				979EF5741AC2BC0D00D51477 /* War.jpg */,
+				979EF5731AC2BC0D00D51477 /* Western.jpg */,
+			);
+			name = "Movie Images";
 			sourceTree = "<group>";
 		};
 		97F653A01ABD9E9D00C82B5C /* AFNetworking */ = {
@@ -299,13 +397,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				979EF5851AC2BC0D00D51477 /* War.jpg in Resources */,
+				979EF57E1AC2BC0D00D51477 /* History.jpg in Resources */,
+				979EF59A1AC2BC4200D51477 /* Animation.jpg in Resources */,
+				979EF5871AC2BC0D00D51477 /* Musical.jpg in Resources */,
+				979EF59D1AC2BC4200D51477 /* Crime.jpg in Resources */,
+				979EF5891AC2BC0D00D51477 /* Music.jpg in Resources */,
+				979EF58B1AC2BC0D00D51477 /* Thriller.jpg in Resources */,
+				979EF59C1AC2BC4200D51477 /* Action.jpg in Resources */,
 				445F0D2918C310E70074F4BE /* Images.xcassets in Resources */,
+				979EF59F1AC2BC4200D51477 /* Biography.jpg in Resources */,
+				979EF58D1AC2BC0D00D51477 /* Horror.jpg in Resources */,
+				979EF5861AC2BC0D00D51477 /* Mystery.jpg in Resources */,
+				979EF5801AC2BC0D00D51477 /* Game-Show.jpg in Resources */,
+				979EF59B1AC2BC4200D51477 /* Adventure.jpg in Resources */,
 				975A7C6F1AC01EA50033321F /* background.jpg in Resources */,
 				975A7C751AC01EDF0033321F /* Default-568h@4x.png in Resources */,
+				979EF5681AC2B37900D51477 /* genres.plist in Resources */,
+				979EF5841AC2BC0D00D51477 /* Western.jpg in Resources */,
+				979EF57D1AC2BC0D00D51477 /* Family.jpg in Resources */,
+				979EF59E1AC2BC4200D51477 /* Comedy.jpg in Resources */,
+				979EF5831AC2BC0D00D51477 /* News.jpg in Resources */,
+				979EF58C1AC2BC0D00D51477 /* Sports.jpg in Resources */,
+				979EF57F1AC2BC0D00D51477 /* Sci-Fi.jpg in Resources */,
+				979EF5981AC2BC4200D51477 /* Drama.jpg in Resources */,
+				979EF58A1AC2BC0D00D51477 /* Talk-Show.jpg in Resources */,
+				979EF5991AC2BC4200D51477 /* Documentary.jpg in Resources */,
 				975A7C741AC01EDF0033321F /* Default-568h@3x.png in Resources */,
 				445F0CFE18C310CD0074F4BE /* InfoPlist.strings in Resources */,
+				979EF5971AC2BC4200D51477 /* Film-Noir.jpg in Resources */,
 				975A7C791AC0224F0033321F /* logo-YTS.png in Resources */,
+				979EF5811AC2BC0D00D51477 /* Romance.jpg in Resources */,
+				979EF5881AC2BC0D00D51477 /* Fantasy.jpg in Resources */,
 				975A7C731AC01EDF0033321F /* Default-568h@2x.png in Resources */,
+				979EF5821AC2BC0D00D51477 /* Reality-TV.jpg in Resources */,
 				445F0D0718C310CD0074F4BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +465,7 @@
 				97F653CE1ABD9E9D00C82B5C /* AFURLSessionManager.m in Sources */,
 				97F653CF1ABD9E9D00C82B5C /* AFNetworkActivityIndicatorManager.m in Sources */,
 				445F0D0418C310CD0074F4BE /* AppDelegate.m in Sources */,
+				979EF5A21AC2C8E100D51477 /* ShowMovieList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,10 +566,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/puneetrao/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShowTracker/ShowTracker-Prefix.pch";
 				INFOPLIST_FILE = "ShowTracker/ShowTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -453,10 +585,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/puneetrao/Documents/FacebookSDK,
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShowTracker/ShowTracker-Prefix.pch";
 				INFOPLIST_FILE = "ShowTracker/ShowTracker-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

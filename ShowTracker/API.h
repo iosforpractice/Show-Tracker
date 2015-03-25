@@ -23,8 +23,7 @@
 @property (strong,nonatomic) NSDictionary *getResponse;
 -(NSDictionary*)getDataOnlyURL:(NSString*)strUrl;
 -(NSDictionary*)getDataFromURL:(NSString*)strUrl withaParameters:(NSDictionary*)dict;
--(NSDictionary*)sucsess:(NSDictionary *)dictData;
--(void)faliure:(NSError *)error;
+
 
 
 @end
