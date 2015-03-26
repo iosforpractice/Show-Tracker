@@ -32,8 +32,7 @@
     genreQueryString=[NSString stringWithFormat:@"%@genere=%@",bsaeMovieAPI,self.getIntrest];
     NSLog(@"%@",genreQueryString);
     
-    [self runApi];
-
+    [self runApiwithString:genreQueryString];
 }
 
 - (void)didReceiveMemoryWarning
@@ -43,15 +42,15 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)runApi
+-(void)runApiwithString:(NSString *)queryString
 {
     API *objApi=[[API alloc]init];
     objApi.degate=self;
     
-    // [objApi getDataOnlyURL:@"http://yts.to/api/v2/list_movies.json"];
+     [objApi getDataOnlyURL:queryString];
     
-    NSDictionary *dict=@{@"quality":@"720p",@"limit":@"1",@"minimum_rating":@"8"};
-    [objApi getDataFromURL:genreQueryString withaParameters:dict];
+//    NSDictionary *dict=@{@"quality":@"720p",@"limit":@"50",@"minimum_rating":@"8"};
+//    [objApi getDataFromURL:queryString withaParameters:dict];
     
     
 }
@@ -110,9 +109,11 @@
         
         // NSLog(@"%@",[dataDictionary objectForKey:@"language"]);
         // NSLog(@"%@",[self.allMovieDeatails.arr_genre objectAtIndex:1]);
-        NSLog(@"%@",self.objectMovieArr);
     }
     // [collectionView reloadData];
+    
+    DraggableViewBackground *draggableBackground = [[DraggableViewBackground alloc]initWithFrame:self.view.frame andArray:self.objectMovieArr];
+    [self.view addSubview:draggableBackground];
     
 }
 

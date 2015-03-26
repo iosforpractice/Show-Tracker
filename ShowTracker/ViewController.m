@@ -49,7 +49,6 @@ NSString *const bsaeMovieAPI=@"https://yts.to/api/v2/list_movies.json?";
       NSLog(@"%@",dict);
       NSLog(@"%@",genres);
       NSLog(@"%@",images);
-    
 }
 
 

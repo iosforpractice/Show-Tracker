@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import "API.h"
 #import "MovieDetails.h"
+#import "DraggableViewBackground.h"
 
 
 @interface ShowMovieList : UIViewController<passDataWithDelegate>
