@@ -9,7 +9,7 @@
 
 #define ACTION_MARGIN 120 //%%% distance from center where the action applies. Higher = swipe further in order for the action to be called
 #define SCALE_STRENGTH 4 //%%% how quickly the card shrinks. Higher = slower shrinking
-#define SCALE_MAX .93 //%%% upper bar for how much the card shrinks. Higher = shrinks less
+#define SCALE_MAX .95 //%%% upper bar for how much the card shrinks. Higher = shrinks less
 #define ROTATION_MAX 1 //%%% the maximum rotation allowed in radians.  Higher = card can keep rotating longer
 #define ROTATION_STRENGTH 320 //%%% strength of rotation. Higher = weaker rotation
 #define ROTATION_ANGLE M_PI/8 //%%% Higher = stronger rotation angle
@@ -39,6 +39,11 @@
         
 #warning placeholder stuff, replace with card-specific information {
         information = [[RemoteImageView alloc]initWithFrame:CGRectMake(70, 50, 130, 170)];
+        information.layer.borderColor=[UIColor colorWithRed:67/255.0 green:67/255.0 blue:67/255.0 alpha:1.0].CGColor;
+        information.layer.borderWidth=3.0;
+        information.layer.cornerRadius=10.0f;
+        information.clipsToBounds=YES;
+        
         //information.text = @"no info given";
        // [information setTextAlignment:NSTextAlignmentCenter];
        // information.textColor = [UIColor blackColor];
@@ -181,7 +186,7 @@
 -(void)rightAction
 {
     CGPoint finishPoint = CGPointMake(500, 2*yFromCenter +self.originalPoint.y);
-    [UIView animateWithDuration:0.3
+    [UIView animateWithDuration:1
                      animations:^{
                          self.center = finishPoint;
                      }completion:^(BOOL complete){
@@ -197,7 +202,7 @@
 -(void)leftAction
 {
     CGPoint finishPoint = CGPointMake(-500, 2*yFromCenter +self.originalPoint.y);
-    [UIView animateWithDuration:0.3
+    [UIView animateWithDuration:1
                      animations:^{
                          self.center = finishPoint;
                      }completion:^(BOOL complete){
@@ -212,7 +217,7 @@
 -(void)rightClickAction
 {
     CGPoint finishPoint = CGPointMake(600, self.center.y);
-    [UIView animateWithDuration:0.3
+    [UIView animateWithDuration:1
                      animations:^{
                          self.center = finishPoint;
                          self.transform = CGAffineTransformMakeRotation(1);
@@ -228,7 +233,7 @@
 -(void)leftClickAction
 {
     CGPoint finishPoint = CGPointMake(-600, self.center.y);
-    [UIView animateWithDuration:0.3
+    [UIView animateWithDuration:1
                      animations:^{
                          self.center = finishPoint;
                          self.transform = CGAffineTransformMakeRotation(-1);

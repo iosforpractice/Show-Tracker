@@ -30,7 +30,7 @@
  THE SOFTWARE.
  
  */
-
+#import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
 #import "OverlayView.h"
 #import "RemoteImageView.h"

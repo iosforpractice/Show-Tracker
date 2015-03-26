@@ -47,10 +47,10 @@
     API *objApi=[[API alloc]init];
     objApi.degate=self;
     
-     [objApi getDataOnlyURL:queryString];
+     //[objApi getDataOnlyURL:queryString];
     
-//    NSDictionary *dict=@{@"quality":@"720p",@"limit":@"50",@"minimum_rating":@"8"};
-//    [objApi getDataFromURL:queryString withaParameters:dict];
+    NSDictionary *dict=@{@"quality":@"720p",@"limit":@"50",@"minimum_rating":@"8"};
+    [objApi getDataFromURL:queryString withaParameters:dict];
     
     
 }
