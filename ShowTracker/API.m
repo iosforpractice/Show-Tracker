@@ -25,6 +25,8 @@
      {
          
          NSDictionary * dict=responseObject;
+         
+           NSLog(@"%@",dict);
          [self.degate passDataWithDictionary:dict];
          //[self sucsess:responseObject];
         }
@@ -41,11 +43,17 @@
 {
     AFHTTPRequestOperationManager *manager=[AFHTTPRequestOperationManager manager];
  
+    
    // NSURL *filePath=[NSURL fileURLWithPath:strUrl];
+    
+      NSLog(@"%@",strUrl);
+    
+      NSLog(@"%@",dict);
     
     [manager POST:strUrl parameters:dict success:^(AFHTTPRequestOperation *operation, id responseObject)
     {
         NSDictionary * dict=responseObject;
+          NSLog(@"%@",dict);
         [self.degate passDataWithDictionary:dict];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error)
      {

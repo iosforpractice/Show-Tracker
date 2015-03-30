@@ -2,18 +2,16 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "dopebutton_pressed4@.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "dopebutton_pressed4@2.png"
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "dopebutton_pressed4@3.png"
+      "filename" : "dopestampicon67.png"
     }
   ],
   "info" : {

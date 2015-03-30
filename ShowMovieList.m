@@ -29,7 +29,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    genreQueryString=[NSString stringWithFormat:@"%@genere=%@",bsaeMovieAPI,self.getIntrest];
+    genreQueryString=[NSString stringWithFormat:@"%@genre=%@",bsaeMovieAPI,self.getIntrest];
     NSLog(@"%@",genreQueryString);
     
     [self runApiwithString:genreQueryString];
@@ -47,9 +47,9 @@
     API *objApi=[[API alloc]init];
     objApi.degate=self;
     
-     //[objApi getDataOnlyURL:queryString];
+//     [objApi getDataOnlyURL:queryString];
     
-    NSDictionary *dict=@{@"quality":@"720p",@"limit":@"50",@"minimum_rating":@"8"};
+    NSDictionary *dict=@{@"quality":@"720p",@"limit":@"50",@"minimum_rating":[NSNumber numberWithInt:1]};
     [objApi getDataFromURL:queryString withaParameters:dict];
     
     
